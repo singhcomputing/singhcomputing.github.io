@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Singh Computing - Best Computer Science Competitions</title>
+<style>
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+@font-face {
+  font-family: 'Font';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Font;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: dodgerblue;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+
+button {
+  background: #ededed;
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  border-radius: 32px;
+  border: 2px solid green;
+}
+button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+a {
+  color: dodgerblue;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a style="color: white" href="/" id="logo">Singh Computing</a>
+  <div id="navbar-right">
+    <a class="active">Home</a>
+    <a href="/register">Contests</a>
+    <a href="/about">About</a>
+  </div>
+</div>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h1 style="margin-left: 20px; font-size: 48px">Providing excellence in computer science.</h1>
+<h2 style="margin-left: 32px; font-size: 32px; color: gray">Our team's only mission is to assist people in learning<br>computer science & problem solving through contests<br>and challenges.</h2>
+<button onclick="window.location.href='/donate'" style="font-family: Font; margin-left: 32px; font-size: 24px">Donate</button><br><br>
+<button onclick="window.location.href='/about'" style="font-family: Font; margin-left: 32px; font-size: 24px">Learn More</button><br><br>
+<p style="margin-left: 32px; font-size: 20px; color: gray">We believe in shaping today's people, transforming consumers into<br>the next entrepreneurs and world leaders. And we think computing<br>and problem-solving techniques are the way to do it.<br><br>
+Get started by joining the OJCSC Google Classroom: koqet4l</p>
+
+<br><br><br>
+<hr>
+<h1 style="margin-left: 20px; font-size: 48px">Ontario Junior Computer Science Contest (2023)</h1>
+<h2 style="margin-left: 32px; font-size: 32px; color: gray">Grasp a thorough understanding of real-world problems through<br>a province-wide contest hosted by Singh Computing.</h2>
+<button onclick="window.location.href='/ojcsc'" style="font-family: Font; margin-left: 32px; font-size: 24px">Register Now</button><br><br>
+<p style="margin-left: 32px; font-size: 20px; color: gray">The next annual Ontario Junior Computer Science Contest (OJCSC)<br>will take place online on August 4, 2023. Register yourself now for a<br>chance to win a grand prize and a chance to be listed on the<br>OJCSC Board of Honours.<br><br>
+You must be at least 12 years old and under 16 years old in order to<br>participate in the Ontario Junior Computer Science Contest.</p>
+
+<p style="width: 80%; margin-left: 32px; font-size: 20px; color: gray">&copy 2022 Singh Computing managers & organizers.</p>
+<br><br>
+
+</body>
+</html>
